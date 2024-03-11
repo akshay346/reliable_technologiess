@@ -45,10 +45,10 @@ const page = () => {
         trading decisions. Futures trading and algorithmic trading involves a
         substantial risk of loss and you should never make a decision based
         solely on the information found on this
-        website/software/applications/platform/portal. Reliable Technologiess
+        website/software/applications/ <br />platform/portal. Reliable Technologiess
         reserves the right, in its sole discretion and without any obligation,
         to make modifications to any portion of the Reliable Technologiess
-        website /software/applications/platform/portal or publications at any
+        website /software/applications/ <br />platform/portal or publications at any
         time.
       </p>
       <p className="text-4xl font-bold mt-4 mx-8 mb-2">
