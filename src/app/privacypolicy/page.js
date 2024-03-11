@@ -28,7 +28,7 @@ const page = () => {
         Accuracy of Information
       </p>
       <p className="mx-8">
-        The content of this website/software/applications/platform/portal is
+        The content of this website/software/applications/ <br />platform/portal is
         subject to change at any time without notice, and is provided for the
         sole purpose for convenience / for automation / for education and
         assistance in making independent investment decisions. Reliable

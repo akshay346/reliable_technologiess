@@ -3,7 +3,8 @@ import styles from "./HomeText.module.css";
 const HomeText = () => {
   return (
     <section className={styles.section}>
-      <p className="text-6xl font-semibold text-white drop-shadow-lg">Start <br /> Algorithm Training <br /> with <br /> secret strategies.</p>
+      {/* <p className="text-6xl font-semibold text-white drop-shadow-lg z-0">Start <br /> Algorithm Training <br /> with <br /> secret strategies.</p> */}
+      <p className={styles.para}>Start <br /> Algorithm Training <br /> with <br /> secret strategies.</p>
     </section>
   )
 }

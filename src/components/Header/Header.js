@@ -13,7 +13,7 @@ const Header = () => {
         <div>
             <li className={styles.hamicon} onClick={() => setshow(!show)}><MdOutlineSegment /></li>
             <header className={styles.header}>
-                <Link href={'/'}><Image src={'/Logonobg.png'} width={130} height={130} alt="" className="bg-[#0B1828]"></Image></Link>
+                <Link href={'/'} className={styles.logo}><Image src={'/Logonobg.png'} width={130} height={130} alt="" ></Image></Link>
                 <ul className={styles.list}>
                     <li><Link href={'/'} className="text-lg">HOME</Link></li>
                     <li><Link href={'/about'} className="text-lg">ABOUT US</Link></li>

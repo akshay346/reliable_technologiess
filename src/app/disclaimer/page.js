@@ -456,7 +456,7 @@ const page = () => {
           used by another person or entity without the prior written consent of
           Reliable Technologiess. User acknowledges and agrees that User is
           strictly prohibited from allowing third parties to access the Reliable
-          Technologiess website/software/applications/platform/portal or Services
+          Technologiess website/software/applications/platform <br /> /portal or Services
           without the prior written consent of Reliable Technologiess. User
           acknowledges and agrees that User is solely responsible for any
           liability arising from any third party access to or use of the Reliable
