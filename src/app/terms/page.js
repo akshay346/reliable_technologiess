@@ -1,7 +1,7 @@
 const page = () => {
   return (
     <div className=" w-full pt-[25vh] flex flex-col items-center">
-      <h1 className="text-6xl text-center font-extrabold text-[#112D4E]">
+      <h1 className="text-5xl text-center font-extrabold text-[#112D4E]">
         TERMS & CONDITIONS
       </h1>
       <p className=" mx-12 mt-4 mb-4">

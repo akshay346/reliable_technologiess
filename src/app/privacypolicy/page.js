@@ -38,7 +38,7 @@ const page = () => {
         which may arise directly or indirectly from such content or from an
         inability to access such information, for any delay in or failure of the
         transmission or receipt of any instruction or notification in connection
-        therewith. By using this website/software/applications/platform/portal,
+        therewith. By using this website/software/applications/ <br />platform/portal,
         you acknowledge that any recommendations or trading analysis found
         herein are provided for educational and illustrative purposes only and
         should not be used in connection with the formation or execution of any

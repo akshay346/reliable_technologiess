@@ -4,6 +4,7 @@ import { IoHome } from "react-icons/io5";
 import { IoMdCall } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 import { FaRegCopyright } from "react-icons/fa6";
+import { IoMdArrowDroprightCircle } from "react-icons/io";
 import Image from "next/image";
 
 const Footer = () => {
@@ -17,22 +18,22 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-white w-full mb-4">
-        <div className="text-4xl  mb-4 font-bold">Quick Links</div>
+        <div className="text-4xl  mb-4 font-bold"> Quick Links</div>
         <ul>
           <li className="text-gray-400">
-            <Link href={"/disclaimer"}>Disclaimer</Link>
+            <Link href={"/disclaimer"} className="flex items-center gap-2"> <IoMdArrowDroprightCircle className="text-green-600"/>Disclaimer</Link>
           </li>
           <li className="text-gray-400">
-            <Link href={"/riskdiscloser"}>Risk Discloser</Link>
+            <Link href={"/riskdiscloser"} className="flex items-center gap-2"> <IoMdArrowDroprightCircle className="text-green-600"/>Risk Discloser</Link>
           </li>
           <li className="text-gray-400">
-            <Link href={"/privacypolicy"}>Privacy Policy</Link>
+            <Link href={"/privacypolicy"} className="flex items-center gap-2"><IoMdArrowDroprightCircle className="text-green-600"/> Privacy Policy</Link>
           </li>
           <li className="text-gray-400">
-            <Link href={"/refundpolicy"}>Refund Policy</Link>
+            <Link href={"/refundpolicy"} className="flex items-center gap-2"><IoMdArrowDroprightCircle className="text-green-600"/> Refund Policy</Link>
           </li>
           <li className="text-gray-400">
-            <Link href={"/terms"}>Terms & Condition</Link>
+            <Link href={"/terms"} className="flex items-center gap-2"><IoMdArrowDroprightCircle className="text-green-600"/> Terms & Condition</Link>
           </li>
         </ul>
       </div>
