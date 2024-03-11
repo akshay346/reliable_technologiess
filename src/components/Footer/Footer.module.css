@@ -1,0 +1,41 @@
+.main {
+  background-color: #0a3041;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+.mainc{
+  width: 150%;
+  padding-right: 30px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.copy{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0a3041;
+  gap: 4px;
+  color: white;
+  border-top: 1px solid rgb(146, 146, 146);
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+
+}
+
+@media (max-width: 650px) {
+  .main {
+    flex-wrap: wrap;
+  }
+  .mainc{
+    flex-wrap: wrap;
+  }
+  .copy{
+    font-size: 12px;
+  }
+}
