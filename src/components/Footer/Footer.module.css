@@ -25,17 +25,22 @@
   border-top: 1px solid rgb(146, 146, 146);
   padding-top: 5vh;
   padding-bottom: 5vh;
+  font-size: 2.5vh;
 
 }
 
 @media (max-width: 650px) {
   .main {
     flex-wrap: wrap;
+    padding: 20px;
   }
   .mainc{
     flex-wrap: wrap;
   }
   .copy{
-    font-size: 12px;
+    font-size: 10px;
+  }
+  .ul{
+    margin-left: -10px;
   }
 }

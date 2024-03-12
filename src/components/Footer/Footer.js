@@ -10,59 +10,59 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-    <div className={styles.main}>
-      <div className={styles.mainc}>
-        <Image src={'/Logonobg.png'} width={220} height={220} alt=""></Image>
-        <div>
-          <p className="text-gray-400 mb-4">Reliable Technologiess is a leading company specializing in the development of top-notch algorithmic trading systems catering to both retail traders and enterprise-level clients. Our fundamental business philosophy revolves around dedicating our research and . . . <span className="text-green-500"><Link href={'/about'}>Read More</Link></span> </p>
+      <div className={styles.main}>
+        <div className={styles.mainc}>
+          <Image src={'/Logonobg.png'} width={220} height={220} alt=""></Image>
+          <div>
+            <p className="text-gray-400 mb-4">Reliable Technologiess is a leading company specializing in the development of top-notch algorithmic trading systems catering to both retail traders and enterprise-level clients. Our fundamental business philosophy revolves around dedicating our research and . . . <span className="text-green-500"><Link href={'/about'}>Read More</Link></span> </p>
+          </div>
+        </div>
+        <div className="text-white w-full mb-4">
+          <div className="text-4xl  mb-4 font-bold"> Quick Links</div>
+          <ul>
+            <li className="text-gray-400">
+              <Link href={"/disclaimer"} className="flex items-center gap-2"> <IoMdArrowDroprightCircle className="text-green-600" />Disclaimer</Link>
+            </li>
+            <li className="text-gray-400">
+              <Link href={"/riskdiscloser"} className="flex items-center gap-2"> <IoMdArrowDroprightCircle className="text-green-600" />Risk Discloser</Link>
+            </li>
+            <li className="text-gray-400">
+              <Link href={"/privacypolicy"} className="flex items-center gap-2"><IoMdArrowDroprightCircle className="text-green-600" /> Privacy Policy</Link>
+            </li>
+            <li className="text-gray-400">
+              <Link href={"/refundpolicy"} className="flex items-center gap-2"><IoMdArrowDroprightCircle className="text-green-600" /> Refund Policy</Link>
+            </li>
+            <li className="text-gray-400">
+              <Link href={"/terms"} className="flex items-center gap-2"><IoMdArrowDroprightCircle className="text-green-600" /> Terms & Condition</Link>
+            </li>
+          </ul>
+        </div>
+        <div className="text-white w-full">
+          <div className="text-4xl mb-4 font-bold">Contact Us</div>
+          <ul>
+            <li className="flex justify-start items-center gap-3">
+              <IoHome className="text-xl text-green-600" />
+              <p className="text-gray-400">
+                Rahul Chowk, Katras, Dhanbad, <br /> Jharkhand - 808114
+              </p>
+            </li>
+            <li className="flex justify-start items-center gap-3 mt-3">
+              <IoMdCall className="text-xl text-green-600" />
+              <p className="text-gray-400">+91 - 8539923564</p>
+            </li>
+            <li className="flex justify-start items-center gap-3 mt-3">
+              <MdEmail className="text-xl text-green-600" />
+              <p className="text-gray-400">info@reliabletechnologiess.com</p>
+            </li>
+          </ul>
         </div>
       </div>
-      <div className="text-white w-full mb-4">
-        <div className="text-4xl  mb-4 font-bold"> Quick Links</div>
-        <ul>
-          <li className="text-gray-400">
-            <Link href={"/disclaimer"} className="flex items-center gap-2"> <IoMdArrowDroprightCircle className="text-green-600"/>Disclaimer</Link>
-          </li>
-          <li className="text-gray-400">
-            <Link href={"/riskdiscloser"} className="flex items-center gap-2"> <IoMdArrowDroprightCircle className="text-green-600"/>Risk Discloser</Link>
-          </li>
-          <li className="text-gray-400">
-            <Link href={"/privacypolicy"} className="flex items-center gap-2"><IoMdArrowDroprightCircle className="text-green-600"/> Privacy Policy</Link>
-          </li>
-          <li className="text-gray-400">
-            <Link href={"/refundpolicy"} className="flex items-center gap-2"><IoMdArrowDroprightCircle className="text-green-600"/> Refund Policy</Link>
-          </li>
-          <li className="text-gray-400">
-            <Link href={"/terms"} className="flex items-center gap-2"><IoMdArrowDroprightCircle className="text-green-600"/> Terms & Condition</Link>
-          </li>
-        </ul>
+      <div className={styles.copy}>
+        <p>Copyright</p>
+        <p><FaRegCopyright /></p>
+        <p>2024.</p>
+        <p>All rights reserved by Reliable Technologiess</p>
       </div>
-      <div className="text-white w-full">
-        <div className="text-4xl mb-4 font-bold">Contact Us</div>
-        <ul>
-          <li className="flex justify-start items-center gap-3">
-            <IoHome className="text-xl text-green-600" />
-            <p className="text-gray-400">
-              Rahul Chowk, Katras, Dhanbad, <br /> Jharkhand - 808114
-            </p>
-          </li>
-          <li className="flex justify-start items-center gap-3 mt-3">
-            <IoMdCall className="text-xl text-green-600" />
-            <p className="text-gray-400">+91 - 8539923564</p>
-          </li>
-          <li className="flex justify-start items-center gap-3 mt-3">
-            <MdEmail className="text-xl text-green-600" />
-            <p className="text-gray-400">info@reliabletechnologiess.com</p>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div className={styles.copy}>
-      <p>Copyright</p>
-      <p><FaRegCopyright/></p>
-      <p>2024.</p>
-      <p>All rights reserved by Reliable Technologiess</p>
-    </div>
     </>
   );
 };
