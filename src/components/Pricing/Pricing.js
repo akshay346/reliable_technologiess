@@ -35,7 +35,7 @@ const Pricing = () => {
                     <div className="w-full h-[1px] bg-gray-400 mb-4"></div>
                     <div className="text-sm mb-4 px-6">No maintanence</div>
                     <button className="bg-green-600 px-5 py-3 text-white rounded-full" onClick={() => setShow(true)}>BUY NOW</button>
-                    {show && <Payment onClose={() => setShow(false)} />}
+                    {/* {show && <Payment onClose={() => setShow(false)} />} */}
                 </div>
                 <div className={styles.mainc}>
                     <div className="text-xl font-semibold mb-4">QUARTERLY</div>
@@ -104,6 +104,7 @@ const Pricing = () => {
                     <button className="bg-green-600 px-5 py-3 text-white rounded-full" onClick={() => setShow(true)}>BUY NOW</button>
                 </div>
             </div>
+            {show && <Payment onClose={() => setShow(false)} />}
             <p className={styles.note}>&quot;Note- Mentioned Service / Product charges are exclusive of Service Tax&quot;</p>
         </div>
     )
