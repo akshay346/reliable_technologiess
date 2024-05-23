@@ -19,7 +19,7 @@ const Services = () => {
                     <li className="flex items-center gap-3 text-2xl"><BsCheck2Circle className="text-xl text-[#112D4E]"/> Backtesting.</li>
                     <li className="flex items-center gap-3 text-2xl"><BsCheck2Circle className="text-xl text-[#112D4E]"/> Elimination of Emotions.</li>
                 </ul>
-                <p className="text-4xl font-semibold text-[#112D4E] mb-2 mt-4">Company Name manages your trading cross platform.</p>
+                <p className="text-4xl font-semibold text-[#112D4E] mb-2 mt-4">Reliable Technologiess manages your trading cross platform.</p>
                 <ul className="mb-5">
                     <li className="flex items-center gap-3 text-2xl"><IoIosArrowDropright className="text-xl text-[#112D4E]"/> Amibroker</li>
                     <li className="flex items-center gap-3 text-2xl"><IoIosArrowDropright className="text-xl text-[#112D4E]"/> Metatrader</li>
