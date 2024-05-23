@@ -6,7 +6,7 @@ import { ImCross } from "react-icons/im";
 
 const Payment = ({ onClose }) => {
 
-    const img = { src: '/image/QR.jpeg' }
+    const img = { src: '/image/NewQr.jpeg' }
 
     const modalRef = useRef();
 
