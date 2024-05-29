@@ -48,7 +48,7 @@ const Footer = () => {
             </li>
             <li className="flex justify-start items-center gap-3 mt-3">
               <IoMdCall className="text-xl text-green-600" />
-              <p className="text-gray-400">+91 - 8539923564</p>
+              <p className="text-gray-400">+91 - 9801388503</p>
             </li>
             <li className="flex justify-start items-center gap-3 mt-3">
               <MdEmail className="text-xl text-green-600" />

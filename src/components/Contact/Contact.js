@@ -21,7 +21,7 @@ const Contact = () => {
           <ul>
             <li className="flex justify-start items-center gap-3 mt-3">
               <IoMdCall className="text-2xl text-[#112D4E]" />
-              <p>+91 - 8539923564</p>
+              <p>+91 - 9801388503</p>
             </li>
             <li className="flex justify-start items-center gap-3">
               <IoHome className="text-2xl text-[#112D4E]" />
